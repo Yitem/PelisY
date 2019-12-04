@@ -1,0 +1,208 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header .navegador{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header{
+	padding: 20px 5px;
+	margin-bottom: 45px;
+	background: url(../img/totoro.jpg);
+	background-size: cover;
+	background-position: center;
+	}
+
+
+.contenedor{
+	width: 90%;
+	max-width: 1200px;
+	margin: auto;
+	
+}
+
+.main .container{
+	width: 90%;
+	max-width: 1200px;
+	margin: auto;
+	
+}
+
+.main .container .peliculas{
+	transition: all .5s ease;
+	
+}
+
+.main .container .peliculas:hover{
+	transform: scale(1.1,1.1);
+	
+}
+
+header .navegador .logo{
+	padding: 25px 0;
+
+}
+
+body{
+	background: #212121 ;
+}
+
+header .navegador .logo {
+	font-size: 60px;
+	font-weight: normal;
+	color: #990099  ;
+}
+
+header .navegador .menu a{
+	margin-left: 20px;
+	font-size: 25px;
+	text-decoration: none;
+	color: #990099 ;
+	transition: all .3s ease;
+
+}
+
+header .navegador .menu a:hover{
+	border-bottom: 2px solid rgba(255,255,255,.7);
+}
+
+/*---- main ----*/
+
+.main .contenedor{
+	background: #ddd; 
+	padding: 20px;
+}
+
+.main .container{
+	background: #ddd; 
+	padding: 20px;
+}
+
+.main .articulos{
+	padding: 15px;
+	border: 2px solid #fff;
+	border-radius: 5px;
+	margin-top: 100px;
+	margin-bottom: 30px;
+	transition: all .5s ease;
+	
+
+}
+
+
+
+.main .articulos :hover{
+	background: #A9CCE3 ;
+}
+
+
+.main .articulos .title{
+	font-size: 40px;
+	margin: 20px 0;
+	color: #990099 ;
+}
+
+
+.main .articulos p{
+	font-size: 16px;
+	line-height: 25px;
+	font-family: Arial;
+}
+
+.main .trailers .title{
+	width: 100%;
+	font-size: 40px;
+	text-align: center;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #000;
+	margin-bottom: 30px;
+}
+
+.main .trailers{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	
+
+}
+
+.main .peliculas{
+margin-bottom: 30px;
+}
+
+/*--- pagination ---*/
+
+.pagination {
+  display: inline-block;
+  background: #ccc;
+}
+
+.pagination a{
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+}
+
+.pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+  border: 1px solid #4CAF50;
+}
+
+.pagination a:hover:not(.active) {background-color: #85C1E9;}
+
+
+/*--- footer ---*/
+
+footer{
+	width: 100%;
+	margin-top: 50px;
+}
+
+footer .social{
+	background: #283747;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding: 15px 10px;
+	transition: all .3s ease;
+}
+
+footer .social a{
+	font-size: 35px;
+	color: #BDBDBD  ;
+}
+
+footer .social .facebook:hover{
+	transform: scale(1.2,1.2);
+	color: #003399;
+}
+
+footer .social .instagram:hover{
+	transform: scale(1.2,1.2);
+	color: #532418;
+
+}
+
+footer .social .youtube:hover{
+	transform: scale(1.2,1.2);
+	color: #FF3333;
+}
+
+footer .social .snapchat:hover{
+	transform: scale(1.2,1.2);
+	color: #FFCC00;
+}
+
+
